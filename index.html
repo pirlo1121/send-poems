@@ -1,0 +1,78 @@
+<html lang="es">
+<head>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.poema-container {
+    font-family: 'Georgia', serif;
+
+    background-image: url('https://i.pinimg.com/1200x/ab/d8/1a/abd81afa1955c4aabea01f89ac102d4f.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 40px 40px;
+    width: 500px;
+    max-width: 800px;
+    min-width: 400px;
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.407);
+    text-align: center;
+    line-height: 1.8;
+}
+.poema-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.poema {
+    font-size: 19px;
+    white-space: pre-line;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.signature {
+    margin-top: 20px;
+    font-size: 18px;
+    /* font-style: italic; */
+    font-style: oblique;
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: end;
+    margin-right: 30px;
+
+}
+.author {
+    text-align: end;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    margin-right: 30px;
+
+
+
+}
+    </style>
+</head>
+<body>
+    <div class="poema-container">
+
+        <div class="poema-title">Poema del Día</div>
+        <div class="poema" id="poema-texto"></div>
+        <div class="author" id="poema-autor"></div>
+        <div class="signature">Con cariño, Maicol</div>
+    </div>
+</body>
+</html>
