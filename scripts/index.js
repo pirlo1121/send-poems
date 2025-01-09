@@ -16,21 +16,12 @@ if (!process.env.EMAIL || !process.env.PASSWORD) {
 cron.schedule('0 13 * * *', async () => { 
   try { 
     await sendPoemEmail();
-    console.log('Poema enviado.');
+    console.log(true);
   } catch (error) {
     console.error('Error al enviar el poema:', error);
   }
 });
 
-async function name() {
-  try { 
-    await sendPoemEmail();
-    console.log('Poema enviado.');
-  } catch (error) {
-    console.error('Error al enviar las noticias y el poema:', error);
-  }
-}
-name();
 
 app.get('/', (req, res) => {
   res.send('El poema se enviará cada 24 horas');

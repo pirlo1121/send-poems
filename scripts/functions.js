@@ -34,8 +34,6 @@ export async function sendPoemEmail() {
   const poemIndex = date.getDate() % poemas.length; // Se elige el poema según el día del mes
   const poemaDelDia = poemas[poemIndex];
 
-  console.log('Enviando poema del día:', poemaDelDia);
-
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
