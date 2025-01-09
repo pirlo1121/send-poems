@@ -1,144 +1,192 @@
 export const poemas = [
     {
-        texto: `No te amo como si fueras rosa de sal, topacio,
-        o flecha de claveles que propagan el fuego:
-        te amo como se aman ciertas cosas oscuras,
-        secretamente, entre la sombra y el alma.`,
-        autor: 'Pablo Neruda'
-    },
-    {
-        texto: `¿Qué es poesía?, dices mientras clavas
-        en mi pupila tu pupila azul.
-        ¡Qué es poesía! ¿Y tú me lo preguntas?
-        Poesía... eres tú.`,
+        texto: `No digáis que agotado su tesoro,
+                de asuntos falta, enmudeció la lira:
+                podrá no haber poetas; pero siempre
+                habrá poesía.`,
         autor: 'Gustavo Adolfo Bécquer'
     },
     {
-        texto: `Mano la verdad me quedé sin poemas,
-        jskasjksa, deme tiempo y hoy subo más xd`,
-        autor: 'Pirlé re gonorré'
+        texto: `Your life is your life.
+                Don't let it be clubbed into dank submission.`,
+        autor: 'Charles Bukowski'
     },
     {
-        texto: `Tus manos son mi caricia,
-        mis acordes cotidianos.
-        Te quiero porque tus manos
-        trabajan por la justicia.`,
-        autor: 'Mario Benedetti'
+        texto: `¿Qué es poesía?, dices mientras clavas
+                en mi pupila tu pupila azul.
+                ¡Qué es poesía! ¿Y tú me lo preguntas?
+                Poesía... eres tú.`,
+        autor: 'Gustavo Adolfo Bécquer'
     },
     {
-        texto: `Verde que te quiero verde.
-        Verde viento. Verdes ramas.
-        El barco sobre la mar
-        y el caballo en la montaña.`,
-        autor: 'Federico García Lorca'
-    },
-    {
-        texto: `¿Dónde estarán los siglos, dónde el sueño
-        de espadas que los tártaros soñaron,
-        dónde los fuertes muros que allanaron,
-        dónde el árbol de Adán y la otra leña?`,
-        autor: 'Jorge Luis Borges'
-    },
-    {
-        texto: `Caminante, son tus huellas
-        el camino y nada más;
-        caminante, no hay camino,
-        se hace camino al andar.`,
-        autor: 'Antonio Machado'
-    },
-    {
-        texto: `Entre ir y quedarse, duda el día,
-        enamorado de su transparencia;
-        la tarde circular es ya del río,
-        y una serenidad se anuncia en el alma.`,
-        autor: 'Octavio Paz'
-    },
-    {
-        texto: `Shall I compare thee to a summer's day?
-        Thou art more lovely and more temperate:
-        Rough winds do shake the darling buds of May,
-        And summer's lease hath all too short a date.`,
-        autor: 'William Shakespeare'
-    },
-    {
-        texto: `En tu luz aprendo a amar.
-        En tu belleza, a escribir poemas.
-        Bailas dentro de mi pecho
-        donde nadie te ve.`,
-        autor: 'Rumi'
-    },
-    {
-        texto: `Hope is the thing with feathers
-        That perches in the soul,
-        And sings the tune without the words,
-        And never stops at all.`,
-        autor: 'Emily Dickinson'
-    },
-    {
-        texto: `Dame la mano y danzaremos;
-        dame la mano y me amarás.
-        Como una sola flor seremos,
-        como una flor, y nada más.`,
-        autor: 'Gabriela Mistral'
-    },
-    {
-        texto: `Y yo me iré. Y se quedarán los pájaros cantando;
-        y se quedará mi huerto, con su verde árbol,
-        y con su pozo blanco.`,
-        autor: 'Juan Ramón Jiménez'
-    },
-    {
-        texto: `Este que ves, engaño colorido,
-        que, del arte ostentando los primores,
-        con falsos silogismos de colores
-        es cauteloso engaño del sentido.`,
+        texto: `Hombres necios que acusáis
+                a la mujer sin razón,
+                sin ver que sois la ocasión
+                de lo mismo que culpáis.`,
         autor: 'Sor Juana Inés de la Cruz'
     },
     {
+        texto: `You do not just wake up and become the butterfly—
+                growth is a process.`,
+        autor: 'Rupi Kaur'
+    },
+    {
+        texto: ``,
+        autor: ''
+    },
+    {
+        texto: `Si me quieres, quiéreme entera,
+                no por zonas de luz o sombra.`,
+        autor: 'Dulce María Loynaz'
+    },
+    {
+        texto: `Los suspiros son aire y van al aire.
+                Las lágrimas son agua y van al mar.
+                Dime, mujer, cuando el amor se olvida,
+                ¿sabes tú adónde va?`,
+        autor: 'Gustavo Adolfo Bécquer'
+    },
+    {
+        texto: `No te rindas, aún estás a tiempo
+                de alcanzar y comenzar de nuevo,
+                aceptar tus sombras,
+                enterrar tus miedos,
+                liberar el lastre,
+                retomar el vuelo.`,
+        autor: 'Mario Benedetti'
+    },
+    {
+        texto: `¿No es verdad, ángel de amor,
+                que en esta apartada orilla
+                más pura la luna brilla
+                y se respira mejor?`,
+        autor: 'José Zorrilla '
+    },
+    {
+        texto: `Tú que caíste en mi prado
+                de las rosas en la cuna,
+                ¿eres lágrima de luna,
+                o suspiro de un amor?`,
+        autor: 'Carolina Coronado'
+    },
+    {
+        texto: ``, // en esperaaa
+        autor: ''
+    },
+    {
+        texto: `Que mi amor no se apague con la muerte,
+                ni que el soplo de Dios lo lance al polvo,
+                ni que se seque en lágrimas mi alma.`,
+        autor: 'Carolina Coronado'
+    },
+    {
+        texto: `Veía sus ojos cerrados
+                a las luces de los cinco espejos,
+                su cuerpo claro y pequeño
+                perdido en el sudario blanco.`,
+        autor: 'Federico García Lorca'
+    },
+    {
+        texto: `Volverán las oscuras golondrinas
+                en tu balcón sus nidos a colgar,
+                y otra vez con el ala a sus cristales
+                jugando llamarán.`,
+        autor: 'Gustavo Adolfo Bécquer'
+    },
+    {
         texto: `Dientes de flores, cofia de rocío,
-        manos de hierbas, tú, nodriza fina,
-        tenme prestas las sábanas terrosas
-        y el edredón de musgos escardados.`,
-        autor: 'Alfonsina Storni'
+                manos de hierbas, tú, nodriza fina,
+                tenme prestas las sábanas terrosas
+                y el edredón de musgos escardados.`,
+        autor: 'Alfonsina Storni '
     },
     {
-        texto: `Hay golpes en la vida, tan fuertes... ¡Yo no sé!
-        Golpes como del odio de Dios; como si ante ellos,
-        la resaca de todo lo sufrido
-        se empozara en el alma... ¡Yo no sé!`,
-        autor: 'César Vallejo'
+        texto: `¿Qué es poesía?, dices mientras clavas
+                en mi pupila tu pupila azul.
+                ¡Qué es poesía! ¿Y tú me lo preguntas?
+                Poesía... eres tú.`,
+        autor: 'Gustavo Adolfo Bécquer'
     },
     {
-        texto: `La princesa está triste... ¿Qué tendrá la princesa?
-        Los suspiros se escapan de su boca de fresa,
-        que ha perdido la risa, que ha perdido el color.`,
-        autor: 'Rubén Darío'
+        texto: `Perdona si no supe dejarte ni un recuerdo.
+                Amor fue lo que quise darte,
+                y sólo dolor te he dado.`,
+        autor: 'Manuel Acuña '
     },
     {
-        texto: `El Poeta es semejante al príncipe de las nubes
-        que frecuenta la tormenta y se ríe del arquero;
-        exiliado en la tierra, entre burlas y abucheos,
-        sus alas de gigante le impiden caminar.`,
-        autor: 'Charles Baudelaire'
+        texto: `Hope is the thing with feathers
+                That perches in the soul,
+                And sings the tune without the words,
+                And never stops at all.`,
+        autor: 'Emily Dickinson'
     },
     {
-        texto: `Muy cerca de mi ocaso, yo te bendigo, vida,
-        porque nunca me diste ni esperanza fallida,
-        ni trabajos injustos, ni pena inmerecida.`,
-        autor: 'Amado Nervo'
+        texto: ``, //nicolaaas
+        autor: ''
     },
     {
-        texto: `Me celebro y me canto a mí mismo.
-        Y lo que yo diga de mí ahora,
-        lo digo de ti,
-        porque lo que yo tengo lo tienes tú también.`,
-        autor: 'Walt Whitman'
+        texto: `Sólo quien se aventura a perderse
+                puede encontrar nuevos caminos.`,
+        autor: 'Hermann Hesse'
     },
     {
-        texto: `En mi cuaderno de escolar
-        en mi pupitre y los árboles
-        en la arena y en la nieve
-        escribo tu nombre.`,
-        autor: 'Paul Éluard'
-    }
+        texto: `Si te quiero es porque sos
+                mi amor, mi cómplice y todo,
+                y en la calle, codo a codo,
+                somos mucho más que dos.`,
+        autor: 'Mario Benedetti'
+    },
+    {
+        texto: `¿Quieres ser feliz?
+                Entonces no te canses de contemplar
+                las cosas simples.`,
+        autor: 'Hermann Hesse'
+    },
+    {
+        texto: `Tu pupila es azul, y cuando ríes,
+                su claridad suave me recuerda
+                el trémulo fulgor de la mañana
+                que en el mar se refleja.`,
+        autor: 'Gustavo Adolfo Bécquer'
+    },
+    {
+        texto: `El corazón tiene más cuartos que un hotel de putas,
+                y hay uno reservado para quienes nos aman.`,
+        autor: 'Gabriel García Márquez'
+    },
+    {
+        texto: `Dónde estarán los siglos,
+                dónde el sueño
+                de espadas que los tártaros soñaron,
+                dónde los fuertes muros que allanaron,
+                dónde el árbol de Adán y el otro leño.`,
+        autor: 'Jorge Luis Borges'
+    },
+    {
+        texto: `Dos rojas lenguas de fuego
+                que a un mismo tronco enlazadas
+                se aproximan, y al besarse
+                forman una sola llama.`,
+        autor: 'Gustavo Adolfo Bécquer'
+    },
+    {
+        texto: `Me enamoré de tus alas,
+                y ahora no sé cómo seguir el vuelo
+                si no estás.`,
+        autor: 'Gabriel García Márquez'
+    },
+    {
+        texto: `Los invisibles átomos del aire
+                en derredor palpitan y se inflaman;
+                el cielo se deshace en rayos de oro;
+                la tierra se estremece alborozada.`,
+        autor: 'Gustavo Adolfo Bécquer'
+    },
+    {
+        texto: `Despierta, tiembla, huye,
+                que el día en el cristal del horizonte
+                rompe con resplandor de sangre y oro.`,
+        autor: 'Gustavo Adolfo Bécquer'
+    },
+   
   ];
