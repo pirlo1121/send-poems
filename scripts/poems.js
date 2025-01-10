@@ -31,8 +31,11 @@ export const poemas = [
         autor: 'Rupi Kaur'
     },
     {
-        texto: ``,
-        autor: ''
+        texto: ` Captain! my Captain! our fearful trip is done,
+                The ship has weather’d every rack, the prize we sought is won,
+                The port is near, the bells I hear, the people all exulting,
+                While follow eyes the steady keel, the vessel grim and daring.`,
+        autor: 'Walt Whitman'
     },
     {
         texto: `Si me quieres, quiéreme entera,
@@ -70,8 +73,10 @@ export const poemas = [
         autor: 'Carolina Coronado'
     },
     {
-        texto: ``, // en esperaaa
-        autor: ''
+        texto: `I celebrate myself, and sing myself,
+                And what I assume you shall assume,
+                For every atom belonging to me as good belongs to you.`, // en esperaaa
+        autor: 'Walt Whitman'
     },
     {
         texto: `Que mi amor no se apague con la muerte,
@@ -121,8 +126,16 @@ export const poemas = [
         autor: 'Emily Dickinson'
     },
     {
-        texto: ``, //nicolaaas
-        autor: ''
+        texto: `Volverán las oscuras golondrinas
+                en tu balcón sus nidos a colgar,
+                y otra vez con el ala a sus cristales,
+                jugando llamarán.
+
+                Pero aquéllas que el vuelo refrenaban
+                tu hermosura y mi dicha a contemplar,
+                aquéllas que aprendieron nuestros nombres…
+                esas… ¡no volverán!`, //nicolaaas
+        autor: 'Gustavo Adolfo Bécquer'
     },
     {
         texto: `Sólo quien se aventura a perderse
