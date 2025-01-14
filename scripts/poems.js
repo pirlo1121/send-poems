@@ -98,6 +98,12 @@ export const poemas = [
                 jugando llamarán.`,
         autor: 'Gustavo Adolfo Bécquer'
     },
+    {   texto: `Si te quiero es porque sos
+                mi amor, mi cómplice y todo,
+                y en la calle, codo a codo,
+                somos mucho más que dos.`,
+        autor: 'Mario Benedetti'
+    },
     {
         texto: `Dientes de flores, cofia de rocío,
                 manos de hierbas, tú, nodriza fina,
@@ -126,28 +132,19 @@ export const poemas = [
         autor: 'Emily Dickinson'
     },
     {
-        texto: `Volverán las oscuras golondrinas
-                en tu balcón sus nidos a colgar,
-                y otra vez con el ala a sus cristales,
-                jugando llamarán.
+        texto: `Benditas las palabras con que canto
+                el nombre de mi amada; y mi tormento,
+                mis ansias, mis suspiros y mi llanto.
 
-                Pero aquéllas que el vuelo refrenaban
-                tu hermosura y mi dicha a contemplar,
-                aquéllas que aprendieron nuestros nombres…
-                esas… ¡no volverán!`, //nicolaaas
-        autor: 'Gustavo Adolfo Bécquer'
+                Y benditos mis versos y mi arte
+                pues la ensalzan, y, en fin, mi pensamiento,
+                puesto que ella tan sólo lo comparte.`, 
+        autor: 'Petrarca'
     },
     {
         texto: `Sólo quien se aventura a perderse
                 puede encontrar nuevos caminos.`,
         autor: 'Hermann Hesse'
-    },
-    {
-        texto: `Si te quiero es porque sos
-                mi amor, mi cómplice y todo,
-                y en la calle, codo a codo,
-                somos mucho más que dos.`,
-        autor: 'Mario Benedetti'
     },
     {
         texto: `¿Quieres ser feliz?
